@@ -29,6 +29,8 @@ cd openwrt
 
 if [ $firmware == "xiaomi_redmi-router-ac2100" ]; then
 	firmware="redmi-ac2100"
+elif [ $firmware == "xiaomi_mi-router-ac2100" ]; then
+	firmware="redmi-ac2100"
 elif [ $firmware == "phicomm_k2p" ]; then
 	firmware="phicomm-k2p"
 elif [ $firmware == "x86_64" ]; then

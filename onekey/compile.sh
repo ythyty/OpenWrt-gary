@@ -63,6 +63,8 @@ echo "
 
 9. Exit
 
+10. Mi_AC2100
+
 "
 
 while :; do
@@ -104,6 +106,10 @@ case $CHOOSE in
 	break
 	;;
 	9)	exit 0
+	;;
+	10)
+		firmware="mi-ac2100"
+	break
 	;;
 
 esac
