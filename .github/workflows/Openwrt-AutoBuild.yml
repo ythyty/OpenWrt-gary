@@ -209,7 +209,7 @@ jobs:
         fi
 
     - name: Deploy files to server
-      uses: easingthemes/ssh-deploy@master
+      uses: easingthemes/ssh-deploy@main
       continue-on-error: true
       if: env.SSH_PRIVATE_KEY && ! contains(github.event.action, 'noser')
       with:
